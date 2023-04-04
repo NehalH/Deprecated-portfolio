@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Nehal Hosalikar",
-  title: "Hi there, I'm Nehal",
+  title: "Hi there, I'm Nehal Hosalikar",
   subTitle: emoji(
-    "Aspiring Information Science and Engineering student with a focus on innovation and attention to detail"
+    "A passionate Software Developer and Technology enthusiast who loves to solve problems using technology."
   ),
   resumeLink:
     "https://drive.google.com/file/d/12cbQANHRVutE6zD3H4CLNlm5tCb264yj/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/G1-k",
-  linkedin: "https://www.linkedin.com/in/jeevan-k-6aa7a616b/",
-  gmail: "iamjeevank2000@gmail.com",
-  gitlab: "https://https://gitlab.com/iamjeevank2000",
-  facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/",
-  stackoverflow: "https://stackoverflow.com/",
+  github: "https://github.com/NehalH",
+  linkedin: "https://www.linkedin.com/in/nehal-hosalikar-35535a204/",
+  gmail: "nhosalikar@gmail.com",
+  twitter: "https://twitter.com/NHosalikar",
+  stackoverflow: "https://stackoverflow.com/users/16901466/nehal-hosalikars",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,9 +47,9 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Software and Robotics Developer exploring the World of Technology",
+  subTitle: "Software Developer exploring the World of Technology",
   skills: [
-    emoji("⚡ Developing Applications and Tools for Android, Linux and Robots"),
+    emoji("⚡ Developing Applications and Tools for Android and Linux"),
     emoji("⚡ I build and code things"),
     emoji("⚡ Contributing to open source communities")
   ],
@@ -69,36 +67,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "Raspberry-pi",
-      fontAwesomeClassname: "fab fa-raspberry-pi"
-    },
-    {
-      skillName: "C++",
-      fontAwesomeClassname: "fab fa-codiepie"
-    },
-    {
-      skillName: "ROS",
-      fontAwesomeClassname: "fas fa-robot"
-    },
-    {
       skillName: "Shell",
       fontAwesomeClassname: "fas fa-laptop-code"
-    },
-    {
-      skillName: "OpenCV",
-      fontAwesomeClassname: "fa fa-eye"
     },
     {
       skillName: "Flutter",
       fontAwesomeClassname: "fas fa-chevron-left"
     },
     {
-      skillName: "Sqlite-database",
+      skillName: "postgreSQL",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Tensorflow",
-      fontAwesomeClassname: "fa fa-brain"
     },
     {
       skillName: "Firebase",
@@ -108,10 +86,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "Network",
-      fontAwesomeClassname: "fa fa-network-wired"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
