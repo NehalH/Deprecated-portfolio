@@ -68,7 +68,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Shell",
-      fontAwesomeClassname: "fas fa-laptop-code"
+      fontAwesomeClassname: "fas fa-square-terminal"
     },
     {
       skillName: "Flutter",
@@ -86,6 +86,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
+    {
+      skillName: "Illustrator",
+      fontAwesomeClassname: " "
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -98,13 +102,13 @@ const educationInfo = {
     {
       schoolName: "Sahyadri College of Engineering and Management",
       logo: require("./assets/images/sahyadri.png"),
-      subHeader: "Bachelor of Engineering in Electronics and Communication",
-      duration: "2018 - 2022",
-      desc: "CGPA - 8.8",
+      subHeader: "Bachelors of Engineering in Information Science and Engineering",
+      duration: "2020 - 2024",
+      desc: "CGPA - 8.12",
       descBullets: [
-        "Participated in various technical events and won prizes",
+        "Participated in various technical events",
         "Technical Member of Team Challengers Student Club",
-        "Worked as a co-ordinator in National Level Event - Aerophillia"
+        "Worked as organizer for National Level Techno Cultural Event - Aerophillia 2022",
       ]
     }
   ]
@@ -116,17 +120,21 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "C++ Developer", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Java Programming", //Insert stack or technology you have experience in
+      progressPercentage: "50%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Python Programming",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "C Programming",
+      progressPercentage: "50%"
     },
     {
       Stack: "Linux - Bash",
       progressPercentage: "70%"
     },
-    {
-      Stack: "Computer Networks",
-      progressPercentage: "50%"
-    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -134,7 +142,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Intern",
@@ -159,70 +167,62 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME PROJECTS THAT I WORKED ON FOR COMPETITIONS AND HACKATHONS",
+  subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/vtol.png"),
-      projectName: "G-1 (Gaurdian 1)",
+      //image: require("./assets/images/vtol.png"),
+      projectName: "AEROPHILIA'22  Organizer Application",
       projectDesc:
-        "Autonomous VTOL System for operations in hilly and disaster prone areas",
+        "A Mobile Application built using Flutter and Firebase, specifically for the Organizers of AEROPHILIA 2022, a national level TechnoCultural fest.",
       footerLink: [
         {
-          name: "View Project",
-          url: "https://www.youtube.com/watch?v=F9ETXcU6t6g&feature=youtu.be"
+          name: "Repository",
+          url: ""
         }
 
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/amar.png"),
-      projectName: "AMAR",
+      //image: require("./assets/images/amar.png"),
+      projectName: "BookSwap",
       projectDesc:
-        "AMAR is a differential-drive mobile robot capable of Indoor Navigation",
+        "A web-based book exchange platform built using Flask, SQLAlchemy, and PostgreSQL. BookSwap streamlines the book exchange process, making it easier for readers to acquire more books without spending money.",
       footerLink: [
         {
-          name: "View Project",
-          url: "https://www.youtube.com/watch?v=xx_RwlXizuw"
-        },
-        {
-          name: "Repo",
-          url: "https://github.com/G1-k/LaMB"
+          name: "Repository",
+          url: ""
         }
       ]
     },
     {
-      image: require("./assets/images/zephyrpanel.png"),
-      projectName: "Zephyr-Panel",
+      //image: require("./assets/images/zephyrpanel.png"),
+      projectName: "Walnut Locker",
       projectDesc:
-        "A Linux application to control fan speed and keyboard backlight of ASUS Zephyrus AMD-Series Laptops",
+        "This project is a desktop application that provides advanced file and application protection by leveraging the operating system's user permission restrictions and dynamic passwords.",
       footerLink: [
         {
-          name: "View Repo",
-          url: "https://github.com/G1-k/Zephyr-Panel"
+          name: "View Repository",
+          url: ""
         }
       ]
     },
     {
-      image: require("./assets/images/rps.png"),
-      projectName: "Rock-Paper-Scissors",
+      //image: require("./assets/images/rps.png"),
+      projectName: "BacLens",
       projectDesc:
-        "Bot capable of playing Rock-Paper-Scissors game. It uses Computer vision, Deep Learning techniques to play",
+        "A Mobile application built using Flutter that can recognize images of various microscopic organisms using Machine learning.",
       footerLink: [
         {
-          name: "View Project",
-          url: "https://youtu.be/jDaEojt1Owg"
-        },
-        {
-          name: "Repo",
-          url: "https://github.com/G1-k/Rock-Paper-Scissors-AI-Bot"
+          name: "View Repository",
+          url: ""
         }
       ]
     }
@@ -296,7 +296,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -333,13 +333,13 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Git.Set.Go",
+      subtitle: "A Git and Github workshop for students",
+      //slides_url: "https://bit.ly/saadpasta-slides",
+      //event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -359,15 +359,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91 9901097495",
-  email_address: "iamjeevank2000@gmail.com"
+  number: "+91 8217785009",
+  email_address: "nhosalikar@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  userName: "NehalHosalikar", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
 };
 
 export {
