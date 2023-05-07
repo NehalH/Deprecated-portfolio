@@ -1,5 +1,5 @@
 {
-  "homepage": "https://NehalH.github.io/",
+  "homepage": "https://NehalH.github.io/portfolio",
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -58,7 +58,7 @@
   "main": "fetch.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NehalH/NehalH.github.io.git"
+    "url": "git+https://github.com/NehalH/portfolio.git"
   },
   "keywords": [
     "portfolio"
@@ -66,6 +66,6 @@
   "author": "Nehal Hosalikar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NehalH/NehalH.github.io/issues"
+    "url": "https://github.com/NehalH/portfolio/issues"
   }
 }
