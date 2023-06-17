@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Software Developer and Technology enthusiast who loves to solve problems using technology."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Md3hNemdN3coEzYaMl8BwGR10pXhHgOx/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1gg1FsShjrVC93xP1zVqkPXqFQPHI5T7K/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
