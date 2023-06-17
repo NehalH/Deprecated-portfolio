@@ -183,8 +183,8 @@ const bigProjects = {
         "A Mobile Application built using Flutter and Firebase, specifically for the Organizers of AEROPHILIA 2022, a national level TechnoCultural fest.",
       footerLink: [
         {
-          name: "Repository",
-          url: ""
+          name: "View Repository",
+          url: "https://github.com/NehalH/orgAERO22"
         }
 
         //  you can add extra buttons here.
@@ -197,8 +197,8 @@ const bigProjects = {
         "A web-based book exchange platform built using Flask, SQLAlchemy, and PostgreSQL. BookSwap streamlines the book exchange process, making it easier for readers to acquire more books without spending money.",
       footerLink: [
         {
-          name: "Repository",
-          url: ""
+          name: "View Repository",
+          url: "https://github.com/NehalH/book-swap"
         }
       ]
     },
@@ -210,7 +210,31 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Repository",
-          url: ""
+          url: "https://github.com/NehalH/walnut-locker"
+        }
+      ]
+    },
+    {
+      //image: require("./assets/images/zephyrpanel.png"),
+      projectName: "Raisin",
+      projectDesc:
+        "Raisin is a command-line tool designed to compress text files using layered Huffman encoding techniques.",
+      footerLink: [
+        {
+          name: "View Repository",
+          url: "https://github.com/NehalH/Raisin"
+        }
+      ]
+    },
+    {
+      //image: require("./assets/images/zephyrpanel.png"),
+      projectName: "HomeGrown",
+      projectDesc:
+        "HomeGrown is a Java-based Android application that aims to connect local Garden farmers, facilitating the sale and purchase of fresh, locally sourced, organic agricultural produce.",
+      footerLink: [
+        {
+          name: "View Repository",
+          url: "https://github.com/NehalH/HomeGrown"
         }
       ]
     },
@@ -222,7 +246,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Repository",
-          url: ""
+          url: "https://github.com/NehalH/BacLens"
         }
       ]
     }
